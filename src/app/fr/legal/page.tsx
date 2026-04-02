@@ -15,7 +15,7 @@ export default function LegalFR() {
 
       <h2>Éditeur du site</h2>
       <p>
-        Le site <strong>photo-organizer.app</strong> est édité par :<br />
+        Le site <strong>photorganizer.org</strong> est édité par :<br />
         Photo Organizer<br />
         Email : <a href="mailto:contact@photorganizer.org">contact@photorganizer.org</a>
       </p>

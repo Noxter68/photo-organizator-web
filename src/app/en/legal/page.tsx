@@ -15,7 +15,7 @@ export default function LegalEN() {
 
       <h2>Website Publisher</h2>
       <p>
-        The website <strong>photo-organizer.app</strong> is published by:<br />
+        The website <strong>photorganizer.org</strong> is published by:<br />
         Photo Organizer<br />
         Email: <a href="mailto:contact@photorganizer.org">contact@photorganizer.org</a>
       </p>

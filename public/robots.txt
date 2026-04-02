@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://photo-organizer.app/sitemap.xml
+Sitemap: https://photorganizer.org/sitemap.xml

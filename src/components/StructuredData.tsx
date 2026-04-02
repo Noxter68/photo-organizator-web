@@ -59,8 +59,8 @@ export function OrganizationSchema() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Photo Organizer",
-    url: "https://photo-organizer.app",
-    logo: "https://photo-organizer.app/images/home.png",
+    url: "https://photorganizer.org",
+    logo: "https://photorganizer.org/images/home.png",
   };
 
   return (

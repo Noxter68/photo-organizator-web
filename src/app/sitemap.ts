@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 
-const BASE_URL = "https://photo-organizer.app";
+const BASE_URL = "https://photorganizer.org";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
