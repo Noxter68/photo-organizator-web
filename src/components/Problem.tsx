@@ -34,8 +34,7 @@ export default function Problem({ locale }: { locale: Locale }) {
 
   return (
     <section className="relative py-20 md:py-28 overflow-hidden">
-      <DotPattern className="opacity-30" />
-      <div className="absolute inset-0 bg-gradient-to-b from-gray-50/90 via-gray-50/95 to-gray-50/90 pointer-events-none" />
+      <DotPattern className="opacity-80" />
 
       <div className="relative max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">

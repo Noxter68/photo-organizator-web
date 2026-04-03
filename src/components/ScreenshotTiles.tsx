@@ -4,13 +4,15 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import type { Locale } from "@/lib/dictionaries";
 import { getDictionary } from "@/lib/dictionaries";
+import DotPattern from "./DotPattern";
 
 export default function ScreenshotTiles({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
 
   return (
-    <section className="py-20 md:py-28 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section className="relative py-20 md:py-28 bg-white overflow-hidden">
+      <DotPattern className="opacity-80" />
+      <div className="relative max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t.screenshots.title}</h2>
           <p className="mt-4 text-gray-600 text-lg">{t.screenshots.subtitle}</p>

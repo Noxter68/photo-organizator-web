@@ -12,9 +12,9 @@ export default function Hero({ locale }: { locale: Locale }) {
   return (
     <section className="relative pt-36 pb-20 md:pt-44 md:pb-28 overflow-hidden">
       {/* Dot grid background */}
-      <DotPattern className="opacity-40" />
+      <DotPattern className="opacity-80" />
       {/* Gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/80 via-white/60 to-white pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-b from-blue-50/50 via-transparent to-white/50 pointer-events-none" />
 
       <div className="relative max-w-6xl mx-auto px-6 text-center">
         <motion.div

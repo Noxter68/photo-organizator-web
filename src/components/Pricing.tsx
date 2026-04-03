@@ -29,8 +29,7 @@ export default function Pricing({ locale }: { locale: Locale }) {
 
   return (
     <section id="pricing" className="relative py-20 md:py-28 overflow-hidden">
-      <DotPattern className="opacity-25" />
-      <div className="absolute inset-0 bg-white/85 pointer-events-none" />
+      <DotPattern className="opacity-80" />
       <div className="relative max-w-md mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

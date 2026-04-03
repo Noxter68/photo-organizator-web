@@ -8,6 +8,7 @@ import TimeSaver from "./TimeSaver";
 import Process from "./Process";
 import BeforeAfter from "./BeforeAfter";
 import Features from "./Features";
+import Testimonials from "./Testimonials";
 import Pricing from "./Pricing";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
@@ -30,6 +31,7 @@ export default function LandingPage({ locale }: { locale: Locale }) {
         <Process locale={locale} />
         <BeforeAfter locale={locale} />
         <Features locale={locale} />
+        <Testimonials locale={locale} />
         <Pricing locale={locale} />
         <FAQ locale={locale} />
       </main>

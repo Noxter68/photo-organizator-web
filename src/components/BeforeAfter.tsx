@@ -13,8 +13,7 @@ export default function BeforeAfter({ locale }: { locale: Locale }) {
 
   return (
     <section className="relative py-20 md:py-28 overflow-hidden">
-      <DotPattern className="opacity-20" />
-      <div className="absolute inset-0 bg-linear-to-b from-gray-50/95 to-white/95 pointer-events-none" />
+      <DotPattern className="opacity-80" />
 
       <div className="relative max-w-5xl mx-auto px-6">
         <motion.div

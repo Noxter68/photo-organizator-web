@@ -171,6 +171,36 @@ export const dictionaries = {
         "Support par email",
       ],
     },
+    testimonials: {
+      title: "Ils ont adopté Photo Organizer",
+      items: [
+        {
+          name: "Christine P.",
+          role: "Photographe amateur",
+          text: "J'avais plus de 15 000 photos en vrac depuis mon iPhone. En quelques minutes, tout était trié par date et par lieu. Je n'en reviens toujours pas.",
+        },
+        {
+          name: "Marc D.",
+          role: "Papa de 3 enfants",
+          text: "Des années de souvenirs de famille perdus dans des dossiers incompréhensibles. Maintenant tout est parfaitement organisé. Un vrai soulagement.",
+        },
+        {
+          name: "Sophie L.",
+          role: "Graphiste freelance",
+          text: "Je gère des milliers de photos pour mes clients. Ce logiciel me fait gagner un temps fou. Simple, rapide, efficace.",
+        },
+        {
+          name: "Antoine R.",
+          role: "Retraité passionné de voyage",
+          text: "Toutes mes photos de voyage étaient mélangées. En un clic, elles sont rangées par destination et par date. Magique.",
+        },
+        {
+          name: "Laura M.",
+          role: "Étudiante",
+          text: "J'ai transféré mes photos iPhone sur mon PC Windows et c'était le chaos total. Photo Organizer a tout remis en ordre en quelques secondes.",
+        },
+      ],
+    },
     faq: {
       title: "Questions fréquentes",
       items: [
@@ -387,6 +417,36 @@ export const dictionaries = {
         "No subscription",
         "Instant download",
         "Email support",
+      ],
+    },
+    testimonials: {
+      title: "What our users say",
+      items: [
+        {
+          name: "Christine P.",
+          role: "Amateur photographer",
+          text: "I had over 15,000 photos scattered from my iPhone. In just a few minutes, everything was sorted by date and location. I still can't believe it.",
+        },
+        {
+          name: "Marc D.",
+          role: "Father of 3",
+          text: "Years of family memories lost in incomprehensible folders. Now everything is perfectly organized. What a relief.",
+        },
+        {
+          name: "Sophie L.",
+          role: "Freelance designer",
+          text: "I manage thousands of photos for my clients. This software saves me so much time. Simple, fast, effective.",
+        },
+        {
+          name: "Antoine R.",
+          role: "Retired travel enthusiast",
+          text: "All my travel photos were mixed up. One click and they're sorted by destination and date. Pure magic.",
+        },
+        {
+          name: "Laura M.",
+          role: "Student",
+          text: "I transferred my iPhone photos to my Windows PC and it was total chaos. Photo Organizer sorted everything out in seconds.",
+        },
       ],
     },
     faq: {

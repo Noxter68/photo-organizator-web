@@ -48,13 +48,12 @@ export default function FAQ({ locale }: { locale: Locale }) {
   return (
     <section id="faq" className="relative py-20 md:py-28 bg-gray-50 overflow-hidden">
       <div
-        className="absolute inset-0 pointer-events-none opacity-30"
+        className="absolute inset-0 pointer-events-none opacity-80"
         style={{
           backgroundImage: "radial-gradient(circle, #d1d5db 1px, transparent 1px)",
           backgroundSize: "24px 24px",
         }}
       />
-      <div className="absolute inset-0 bg-gray-50/80 pointer-events-none" />
       <div className="relative max-w-3xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-12">
           {t.faq.title}

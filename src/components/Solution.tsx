@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import type { Locale } from "@/lib/dictionaries";
 import { getDictionary } from "@/lib/dictionaries";
+import DotPattern from "./DotPattern";
 
 const icons = [
   <svg key="0" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" /></svg>,
@@ -16,8 +17,9 @@ export default function Solution({ locale }: { locale: Locale }) {
   const t = getDictionary(locale);
 
   return (
-    <section id="features" className="py-20 md:py-28 bg-white">
-      <div className="max-w-6xl mx-auto px-6">
+    <section id="features" className="relative py-20 md:py-28 bg-white overflow-hidden">
+      <DotPattern className="opacity-80" />
+      <div className="relative max-w-6xl mx-auto px-6">
         <div className="text-center mb-14">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">{t.solution.title}</h2>
         </div>
