@@ -202,6 +202,10 @@ export const dictionaries = {
           q: "Est-ce que la licence est à vie ?",
           a: "Oui. Vous payez une seule fois 99€ et vous pouvez utiliser le logiciel indéfiniment, mises à jour incluses.",
         },
+        {
+          q: "Y a-t-il un support en cas de problème ?",
+          a: "Oui, vous pouvez nous écrire à contact@photorganizer.org. Nous répondons généralement sous 24h.",
+        },
       ],
     },
     footer: {
@@ -415,6 +419,10 @@ export const dictionaries = {
         {
           q: "Is the license really lifetime?",
           a: "Yes. You pay once $99 and you can use the software indefinitely, updates included.",
+        },
+        {
+          q: "Is there support if I have an issue?",
+          a: "Yes, you can reach us at contact@photorganizer.org. We typically respond within 24 hours.",
         },
       ],
     },

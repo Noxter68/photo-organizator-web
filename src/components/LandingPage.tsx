@@ -11,6 +11,7 @@ import Features from "./Features";
 import Pricing from "./Pricing";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
+import ScrollToTop from "./ScrollToTop";
 import { ProductSchema, FAQSchema, OrganizationSchema } from "./StructuredData";
 
 export default function LandingPage({ locale }: { locale: Locale }) {
@@ -33,6 +34,7 @@ export default function LandingPage({ locale }: { locale: Locale }) {
         <FAQ locale={locale} />
       </main>
       <Footer locale={locale} />
+      <ScrollToTop />
     </>
   );
 }
