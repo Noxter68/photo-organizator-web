@@ -56,7 +56,6 @@ export const metadata: Metadata = {
     images: ["/images/home.png"],
   },
   alternates: {
-    canonical: `${BASE_URL}/fr`,
     languages: {
       fr: `${BASE_URL}/fr`,
       en: `${BASE_URL}/en`,
