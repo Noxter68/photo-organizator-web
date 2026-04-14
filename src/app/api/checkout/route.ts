@@ -2,8 +2,8 @@ import { NextRequest, NextResponse } from "next/server";
 import { getStripe } from "@/lib/stripe";
 
 const PRICING: Record<string, { currency: string; amount: number }> = {
-  fr: { currency: "eur", amount: 9900 }, // 39€
-  en: { currency: "usd", amount: 9900 }, // $39
+  fr: { currency: "eur", amount: 5900 }, // 59€
+  en: { currency: "usd", amount: 5900 }, // $59
 };
 
 export async function POST(req: NextRequest) {
