@@ -46,7 +46,10 @@ export default function Hero({ locale }: { locale: Locale }) {
               href="#pricing"
               className="group relative bg-blue-600 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-[0_8px_30px_rgb(37,99,235,0.35)] hover:shadow-[0_12px_40px_rgb(37,99,235,0.5)] hover:bg-blue-700 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200"
             >
-              <span className="relative z-10">{t.hero.cta}</span>
+              <span className="relative z-10">
+                {t.hero.cta}{" "}
+                <span className="line-through opacity-60 text-base font-normal">{t.hero.ctaOriginalPrice}</span>
+              </span>
             </a>
             <a
               href="#process"

@@ -5,7 +5,7 @@ export const dictionaries = {
     meta: {
       title: "Photo Organizer — Organisez automatiquement vos photos sur Windows",
       description:
-        "Triez et rangez automatiquement vos photos iPhone, iPad et Mac sur Windows grâce aux métadonnées. Licence à vie, paiement unique de 99€.",
+        "Triez et rangez automatiquement vos photos iPhone, iPad et Mac sur Windows grâce aux métadonnées. Licence à vie, paiement unique de 59€ (au lieu de 99€).",
     },
     nav: {
       features: "Fonctionnalités",
@@ -19,9 +19,10 @@ export const dictionaries = {
       title: "Organisez automatiquement vos photos, même depuis un iPhone vers Windows",
       subtitle:
         "Ne perdez plus vos albums et vos souvenirs dans des dossiers chaotiques. Le logiciel trie et range vos images automatiquement grâce aux métadonnées.",
-      cta: "Acheter — 99€ à vie",
+      cta: "Acheter — 59€ à vie",
+      ctaOriginalPrice: "99€",
       ctaSecondary: "Voir comment ça fonctionne",
-      badges: ["Paiement unique 99€", "Licence à vie", "100% local", "iPhone → Windows"],
+      badges: ["Paiement unique 59€", "Licence à vie", "100% local", "iPhone → Windows"],
     },
     screenshots: {
       title: "Un logiciel conçu pour être simple",
@@ -158,7 +159,9 @@ export const dictionaries = {
     pricing: {
       title: "Un seul paiement, à vie",
       subtitle: "Pas d'abonnement. Pas de frais cachés. Téléchargement immédiat.",
-      price: "99",
+      price: "59",
+      originalPrice: "99",
+      promoLabel: "Promo",
       currency: "€",
       period: "à vie",
       cta: "Acheter et télécharger",
@@ -230,7 +233,7 @@ export const dictionaries = {
         },
         {
           q: "Est-ce que la licence est à vie ?",
-          a: "Oui. Vous payez une seule fois 99€ et vous pouvez utiliser le logiciel indéfiniment, mises à jour incluses.",
+          a: "Oui. Vous payez une seule fois 59€ et vous pouvez utiliser le logiciel indéfiniment, mises à jour incluses.",
         },
         {
           q: "Y a-t-il un support en cas de problème ?",
@@ -253,7 +256,7 @@ export const dictionaries = {
     meta: {
       title: "Photo Organizer — Automatically Organize Your Photos on Windows",
       description:
-        "Automatically sort and organize your iPhone, iPad and Mac photos on Windows using metadata. Lifetime license, one-time payment of $99.",
+        "Automatically sort and organize your iPhone, iPad and Mac photos on Windows using metadata. Lifetime license, one-time payment of $59 (instead of $99).",
     },
     nav: {
       features: "Features",
@@ -267,9 +270,10 @@ export const dictionaries = {
       title: "Automatically organize your photos, even from iPhone to Windows",
       subtitle:
         "Stop losing your albums and memories in chaotic folders. The software sorts and organizes your images automatically using metadata.",
-      cta: "Buy — $99 lifetime",
+      cta: "Buy — $59 lifetime",
+      ctaOriginalPrice: "$99",
       ctaSecondary: "See how it works",
-      badges: ["One-time $99", "Lifetime license", "100% local", "iPhone → Windows"],
+      badges: ["One-time $59", "Lifetime license", "100% local", "iPhone → Windows"],
     },
     screenshots: {
       title: "Software designed to be simple",
@@ -406,7 +410,9 @@ export const dictionaries = {
     pricing: {
       title: "One payment, for life",
       subtitle: "No subscription. No hidden fees. Instant download.",
-      price: "99",
+      price: "59",
+      originalPrice: "99",
+      promoLabel: "Sale",
       currency: "$",
       period: "lifetime",
       cta: "Buy and download",
@@ -478,7 +484,7 @@ export const dictionaries = {
         },
         {
           q: "Is the license really lifetime?",
-          a: "Yes. You pay once $99 and you can use the software indefinitely, updates included.",
+          a: "Yes. You pay once $59 and you can use the software indefinitely, updates included.",
         },
         {
           q: "Is there support if I have an issue?",

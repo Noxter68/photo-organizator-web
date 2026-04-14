@@ -12,7 +12,7 @@ export function ProductSchema({ locale }: { locale: Locale }) {
     description: t.meta.description,
     offers: {
       "@type": "Offer",
-      price: "99",
+      price: "59",
       priceCurrency: locale === "fr" ? "EUR" : "USD",
       availability: "https://schema.org/InStock",
     },

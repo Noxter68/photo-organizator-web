@@ -46,12 +46,25 @@ export default function Pricing({ locale }: { locale: Locale }) {
             <h2 className="text-2xl font-bold text-gray-900 text-center">{t.pricing.title}</h2>
             <p className="mt-2 text-gray-500 text-sm text-center">{t.pricing.subtitle}</p>
 
+            {/* Promo badge */}
+            <div className="mt-4 flex justify-center">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-red-100 px-3 py-1 text-xs font-semibold text-red-700">
+                {t.pricing.promoLabel} — {locale === "fr" ? "40% de réduction" : "40% off"}
+              </span>
+            </div>
+
             {/* Price */}
-            <div className="mt-6 flex items-baseline justify-center gap-1">
+            <div className="mt-4 flex items-baseline justify-center gap-1">
               {locale === "en" && <span className="text-2xl font-bold text-gray-900">{t.pricing.currency}</span>}
               <span className="text-5xl font-extrabold text-gray-900">{t.pricing.price}</span>
               {locale === "fr" && <span className="text-2xl font-bold text-gray-900">{t.pricing.currency}</span>}
               <span className="text-gray-400 ml-1">/ {t.pricing.period}</span>
+            </div>
+            {/* Original price */}
+            <div className="mt-1 flex justify-center">
+              <span className="text-lg text-gray-400 line-through">
+                {locale === "en" ? `${t.pricing.currency}${t.pricing.originalPrice}` : `${t.pricing.originalPrice}${t.pricing.currency}`}
+              </span>
             </div>
 
             {/* Perks */}
